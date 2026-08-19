@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "title": "俄乌冲突战况地图 — 争夺点与近期报道",
+    "period": "2026-08-16 ~ 2026-08-19（最近三天）",
+    "compiled": "2026-08-19",
+    "note": "以下争夺点与战况摘要均根据 ISW（战争研究所）2026-08-17《Russian Offensive Campaign Assessment》报告原文整理（覆盖 8月16-17 日战况）；报道链接仅保留最近三天（2026-08-16 ~ 08-19）的真实公开来源（Reuters/AP、BBC、Kyiv Independent、Suspilne、Ukrainska Pravda、CNBC 等）。控制区图层数据来自 DeepStateMap.live（2026-08-18 14:50 快照，开源情报，立场亲乌，仅供参考）；ISW 官方控制评估图已更新至 2026-08-18。",
+    "sources": [
+      {
+        "name": "ISW 每日评估报告（2026-08-17，覆盖 8/16-17 战况）",
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+      },
+      {
+        "name": "ISW 官方控制评估图（2026-08-18 13:30 ET）",
+        "url": "https://understandingwar.org/map/assessed-control-of-terrain-in-the-russo-ukrainian-war-august-18-2026-at-130-pm-et/"
+      },
+      {
+        "name": "DeepStateMap.live 控制区数据（2026-08-18 14:50）",
+        "url": "https://deepstatemap.live/"
+      },
+      {
+        "name": "乌克兰国际边界（OSM/Natural Earth 派生）",
+        "url": "https://github.com/glynnbird/countriesgeojson"
+      }
+    ]
+  },
+  "flashpoints": [
+    {
+      "id": "sumy-north",
+      "name": "苏梅州北部边境地带",
+      "nameEn": "Northern Sumy Oblast (Nova Sich / Mala Slobidka / Mohrytsya / Ivolzhanske)",
+      "lat": 51.03496,
+      "lon": 35.10345,
+      "type": "contested",
+      "sector": "北部战线 · 苏梅方向",
+      "timeline": "2026-07-08 ~ 08-17",
+      "status": "俄军8月16-17日持续有限进攻但未推进；乌军防线稳固",
+      "summary": "8月16-17日俄军继续在苏梅州北部实施有限进攻行动，但无任何确认推进（ISW 8/17）。8月16-17日夜俄军以128架无人机（含喷气式）袭击乌克兰全境，乌军击落106架；苏梅州遭俄无人机袭击致2名平民死亡（BBC 8/17）。ISW 评估俄方在该方向的占领声称仍严重夸大，北方战线近两年基本停滞。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        },
+        {
+          "title": "BBC: 俄无人机袭击致苏梅州 2 死；俄乌互相发动致命打击",
+          "date": "2026-08-17",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+        }
+      ]
+    },
+    {
+      "id": "kozacha-lopan",
+      "name": "科扎恰洛潘 Kozacha Lopan",
+      "nameEn": "Kozacha Lopan (Kharkiv Oblast)",
+      "lat": 50.32959,
+      "lon": 36.19214,
+      "type": "contested",
+      "sector": "北部战线 · 哈尔科夫方向",
+      "timeline": "2026-07-30 ~ 08-17",
+      "status": "俄军渗透持续；Kudiivka 渗透被乌军打击；无确认推进",
+      "summary": "8月16日地理定位视频显示乌军打击 Kudiivka（哈尔科夫市以北、E-105 公路）中部一栋俄军占据建筑——ISW 评估为俄军渗透行动（8/17）。8月17日俄北方集群消息源称俄军继续在科扎恰洛潘实施渗透，部分渗透人员已接近该村南部；并称俄军日益渗透 Ivanivka（哈尔科夫市东北、Vovchansk 东南）一带。俄国防部8月16日宣称「占领 Kudiivka」的说法仍无证据支持。ISW 评估哈尔科夫方向俄军推进仍以单兵/小组渗透为主，无大规模越境。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（Kudiivka 渗透与科扎恰洛潘渗透持续）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "velykii-burluk",
+      "name": "大布尔卢克方向（Kupyne / Hryhorivka / Prykolotne）",
+      "nameEn": "Velykyi Burluk direction (Kharkiv Oblast)",
+      "lat": 50.0597,
+      "lon": 37.38551,
+      "type": "contested",
+      "sector": "北部战线 · 哈尔科夫东北",
+      "timeline": "2026-07-22 ~ 08-17",
+      "status": "俄军8月16-17日继续进攻但无确认推进；俄博主声称推进 Kupyne 未获证实",
+      "summary": "8月16-17日俄军继续在大布尔卢克方向实施进攻行动，但无确认推进（ISW 8/17）。8月16日俄军事博主声称俄军推进至 Kupyne（大布尔卢克东北）中部，未获证实。8月17日俄国防部宣称俄空天军以 Kh-39 空对地导弹和两枚 FAB-1500 滑翔炸弹，打击 Hryhorivka（大布尔卢克以东、距边境约9公里）与 Prykolotne（距边境约20公里）附近两处乌军无人机地面控制站。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "kupyansk-borova",
+      "name": "库皮扬斯克—博罗瓦（Oskil 河方向）",
+      "nameEn": "Kupyansk–Borova (Oskil River axis)",
+      "lat": 49.7133,
+      "lon": 37.6142,
+      "type": "contested",
+      "sector": "东部战线 · 库皮扬斯克—博罗瓦",
+      "timeline": "2026-07-03 ~ 08-17",
+      "status": "俄军在库皮扬斯克渗透并声称占领城西北与 Yuvileynyi 小区（未证实）；博罗瓦方向无推进，乌军反击持续",
+      "summary": "8月17日地理定位视频显示乌军打击库皮扬斯克北部俄军人员——ISW 评估为俄军渗透行动。俄西方集群消息源同日声称俄军占领库皮扬斯克西北部及 Yuvileynyi 小区（城西南），并恢复向 Myrove（城西北）推进——ISW 未证实。博罗瓦方向：8月16-17日俄军进攻但未推进；消息源称 Shyikivka（博罗瓦以东）附近战斗加剧但无推进影像；乌军在 Ridkodub、Nove、Katerynivka、Zelena Dolyna（博罗瓦东南）一带持续反击。ISW 评估 8月17日俄乌双方均无确认推进。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "lyman",
+      "name": "莱曼 Lyman",
+      "nameEn": "Lyman (Donetsk Oblast)",
+      "lat": 48.98013,
+      "lon": 37.8168,
+      "type": "contested",
+      "sector": "东部战线 · 莱曼",
+      "timeline": "2026-07-31 ~ 08-17",
+      "status": "俄军8月16-17日继续进攻但无确认推进；战斗集中于莱曼周边森林地带",
+      "summary": "8月17日俄北方集群消息源称莱曼周边森林地带仍有战斗（ISW 8/17）。ISW 未观察到俄军进驻莱曼或周边村庄的证据，乌军仍控制镇西部及 Shandryholove、Drobysheve、Yampil 等周边村庄。俄军继续以滑翔炸弹与无人机对莱曼方向实施战场遮断。ISW 评估俄方此前宣称「已攻占莱曼并清剿」的说法仍无证据支持。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（莱曼周边森林地带战斗）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "sloviansk",
+      "name": "斯拉维扬斯克方向",
+      "nameEn": "Slovyansk direction (Donetsk Oblast)",
+      "lat": 48.84818,
+      "lon": 37.60116,
+      "type": "contested",
+      "sector": "东部战线 · 斯拉维扬斯克",
+      "timeline": "2026-07-07 ~ 08-17",
+      "status": "俄军8月16-17日继续进攻但未推进；对『堡垒带』战场遮断持续",
+      "summary": "8月16-17日俄军在斯拉维扬斯克方向继续进攻行动，但无确认推进（ISW 8/17）。俄国防部8月17日宣称以 Geran 型无人机打击 Havrylivka（M-03 公路旁，用于斯拉维扬斯克方向的俄四轴无人机仓库）与 Novomykolaivka（克拉马托尔斯克以西、距前线约40公里）的弹药库。8月16-17日夜俄军袭击顿涅茨克州邮政设施，斯拉维扬斯克当地市场54个摊位在俄袭击中起火（BBC 8/17）。ISW 评估俄军近期快速推进至或穿过斯拉维扬斯克-克拉马托尔斯克一线的可能性低。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        },
+        {
+          "title": "BBC: 斯拉维扬斯克市场遭俄夜袭，54 个摊位起火",
+          "date": "2026-08-17",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+        }
+      ]
+    },
+    {
+      "id": "kostyantynivka",
+      "name": "康斯坦丁尼夫卡 Kostyantynivka",
+      "nameEn": "Kostyantynivka (Donetsk Oblast) — 近一月最激烈争夺点",
+      "lat": 48.5349,
+      "lon": 37.69238,
+      "type": "contested",
+      "sector": "东部战线 · 顿涅茨克堡垒带",
+      "timeline": "2026-07-01 ~ 08-17（持续交战）",
+      "status": "乌军清剿城东俄渗透人员；俄国防部宣称占领 Andriivka 遭 ISW 质疑（实际推进仅约15公里）",
+      "summary": "8月17日地理定位视频显示乌军在康斯坦丁尼夫卡东部清剿俄军渗透人员——该区域 ISW 此前观察到俄渗透痕迹、俄方曾声称推进（8/17）。俄国防部同日宣称占领 Andriivka（德鲁日基夫卡以西），ISW 仅观察到俄军推进至距 Andriivka 约15公里、渗透至约11公里，评估该声称不可信。ISW 评估俄军对康斯坦丁尼夫卡的单兵渗透与滑翔炸弹打击仍在持续，但无确认推进。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（东部清剿与 Andriivka 声称）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "chasiv-yar",
+      "name": "恰西夫亚尔 Chasiv Yar",
+      "nameEn": "Chasiv Yar (Donetsk Oblast)",
+      "lat": 48.58739,
+      "lon": 37.83734,
+      "type": "contested",
+      "sector": "东部战线 · 康斯坦丁尼夫卡战术区",
+      "timeline": "2026-07-06 ~ 08-17",
+      "status": "8月17日报告未提及恰西夫亚尔方向新的地面战斗；俄军战场遮断持续",
+      "summary": "ISW 8月17日评估报告未提及恰西夫亚尔方向新的地面推进或战斗；该区域继续受俄军滑翔炸弹与无人机战场遮断（BAI）战役影响。此前评估的 Shevchenko、Yuzhnyy 小区等「灰色地带」状态未变，乌军仍控制城镇主体及周边阵地。俄方宣称「夺取恰西夫亚尔」的说法持续无实证支持。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（最新评估参考）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "pokrovsk",
+      "name": "波克罗夫斯克方向",
+      "nameEn": "Pokrovsk direction (Donetsk Oblast)",
+      "lat": 48.40785,
+      "lon": 37.17648,
+      "type": "contested",
+      "sector": "东部战线 · 波克罗夫斯克",
+      "timeline": "2026-07-13 ~ 08-17",
+      "status": "俄军8月16-17日继续进攻但无确认推进；以小群渗透为主",
+      "summary": "8月16-17日俄军继续在波克罗夫斯克方向进攻，但无确认推进（ISW 8/17）。俄军持续以小群步兵渗透与无人机打击为主，乌军依托约20公里纵深的「杀伤区」迟滞俄军。俄国防部8月17日宣称以 Geran 无人机打击 Dmytrivka（M-30 巴甫洛格勒—波克罗夫斯克公路旁、距前线约50公里）的乌无人机仓库。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "dobropillya",
+      "name": "多布罗皮利亚战术区 Dobropillya",
+      "nameEn": "Dobropillya tactical area (Donetsk Oblast)",
+      "lat": 48.4683,
+      "lon": 37.09032,
+      "type": "contested",
+      "sector": "东部战线 · 波克罗夫斯克西北",
+      "timeline": "2026-07-07 ~ 08-17",
+      "status": "俄军8月16-17日继续进攻但无确认推进；未见其在城内建立阵地",
+      "summary": "8月16-17日俄军继续在多布罗皮利亚战术区进攻，但无确认推进（ISW 8/17）。ISW 未观察到俄军在该城建立阵地的证据，俄军推进仍以渗透和战场塑造为主；俄军继续以 Geran 无人机与滑翔炸弹对多布罗皮利亚及周边实施战场遮断。乌军依托无人机优势持续迟滞俄军推进。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "oleksandrivka-donetsk",
+      "name": "亚历山德里夫卡方向（顿涅茨克州/第聂伯罗州边界）",
+      "nameEn": "Oleksandrivka direction (Donetsk Oblast)",
+      "lat": 48.7074,
+      "lon": 36.92078,
+      "type": "contested",
+      "sector": "东部战线 · 斯拉维扬斯克西南",
+      "timeline": "2026-01-29 ~ 08-17",
+      "status": "俄军8月16-17日进攻无推进；Dachne 仍被俄军占据，乌军封锁深入乌控区的俄渗透小组",
+      "summary": "8月16-17日俄军在 Novopavlivka 与亚历山德里夫卡方向继续进攻但无确认推进（ISW 8/17）。Suspilne 8月17日报道乌总参谋部消息源称俄军仍占据 Dachne（Novopavlivka 以南、顿涅茨克-第聂伯罗彼得罗夫斯克州界）。乌军事观察员 Mashovets 8月17日评估：俄小股部队仍盘踞 Filiya-Novopavlivka-Horikhove 一带「灰色地带」；俄军正从 Fedorivka（亚历山德里夫卡以东）向 Voskresenka、Oleksandrohrad 方向反击，试图接应被围困在 Sichneve、Voskresenka、Oleksandrohrad 附近的俄军小组；乌军已将小股俄步兵封锁在较深乌控区（Hai、Radisne、Vyshneve 附近），双方正在 Pryvilne 与 Pavlivka（亚历山德里夫卡以南）交战。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（Mashovets 评估）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        },
+        {
+          "title": "Suspilne：乌总参谋部消息源称 Dachne 仍处于占领之下",
+          "date": "2026-08-17",
+          "url": "https://suspilne.media/dnipro/1380594-pid-okupacieu-dacne-bojovi-dii-trivaut-u-genstabi-prokomentuvali-zvilnenna-dnipropetrovsini-vid-vijsk-rf/"
+        }
+      ]
+    },
+    {
+      "id": "huliaipole",
+      "name": "胡里艾伯莱 Huliaipole",
+      "nameEn": "Huliaipole (Zaporizhzhia Oblast)",
+      "lat": 47.66554,
+      "lon": 36.26568,
+      "type": "contested",
+      "sector": "南部战线 · 扎波罗热方向",
+      "timeline": "2026-07-07 ~ 08-17",
+      "status": "乌军清剿 Huliaipilske 俄渗透人员；俄军宣称占领 Novosoloshyne（未证实）",
+      "summary": "8月16日地理定位视频显示俄军炮击 Huliaipilske（胡里艾伯莱西南）中部乌军阵地——ISW 此前观察到该处有俄渗透人员存在，评估乌军已清剿该区域（8/17）。8月17日地理定位视频显示俄军在 Novosoloshyne（胡里艾伯莱以西）中部与西南部插旗，俄国防部同日宣称占领该村——ISW 未证实。8月16-17日俄军在胡里艾伯莱西北至西南继续进攻但无确认推进。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（Huliaipilske 清剿与 Novosoloshyne 声称）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "stepnohirsk",
+      "name": "斯捷普诺希尔斯克 Stepnohirsk",
+      "nameEn": "Stepnohirsk (Zaporizhzhia Oblast)",
+      "lat": 47.5869,
+      "lon": 35.35602,
+      "type": "contested",
+      "sector": "南部战线 · 扎波罗热西部（第聂伯河左岸）",
+      "timeline": "2026-07-07 ~ 08-17",
+      "status": "俄军8月16-17日在扎波罗热西部继续有限进攻但未推进；Marhanets 遭『双击』打击",
+      "summary": "8月16-17日俄军在西扎波罗热（含第聂伯河左岸方向）继续实施有限进攻，但无确认推进（ISW 8/17）。8月17日乌克兰国家紧急服务局报告：俄军无人机打击正在 Marhanets（第聂伯罗彼得罗夫斯克州、卡霍夫卡水库北岸）回应此前俄炮击事件的应急人员——典型的「双击」战术。俄军继续以无人机打击扎波罗热市民用目标（8月16日 Rogov 声称 Geran-4 打击 Dniprovskyi 区一加油站）。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "kharkiv-city",
+      "name": "哈尔科夫市与哈尔科夫州（空袭）",
+      "nameEn": "Kharkiv City & Oblast (aerial strikes)",
+      "lat": 49.99232,
+      "lon": 36.23101,
+      "type": "strike",
+      "sector": "北部 · 城市袭击",
+      "timeline": "2026-08-01 ~ 08-18",
+      "status": "俄军持续以导弹与无人机袭击哈尔科夫州；Pechenihy 村遭 Banderol 导弹袭击致 10 死",
+      "summary": "8月18日早晨俄军以两枚 Banderol 巡航导弹袭击 Pechenihy 村（哈尔科夫州 Chuhuyiv 区）繁忙路口，至少10名平民死亡、17-18人受伤，损毁10栋民宅、咖啡馆、邮局、商店与约15辆车；泽连斯基称其为「对平民的残暴攻击」并誓言回应（Reuters 8/18；乌总检察长办公室初步信息）。8月16-17日夜俄军以128架无人机袭击乌克兰全境，乌军击落106架（ISW/Ukrainska Pravda 8/17）。8月18日俄军以76架喷气式 Shahed 型无人机袭击乌克兰，乌军拦截70架，基辅当日至少9次空袭警报（Kyiv Independent 8/18）。",
+      "reports": [
+        {
+          "title": "Reuters：俄导弹袭击哈尔科夫州 Pechenihy 村致 10 死，泽连斯基誓言回应",
+          "date": "2026-08-18",
+          "url": "https://uk.news.yahoo.com/russian-missile-attack-kills-10-082752061.html"
+        },
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（128 架无人机夜袭）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        },
+        {
+          "title": "Kyiv Independent：俄以 76 架喷气式无人机大规模袭击，基辅一日 9 次空袭警报",
+          "date": "2026-08-18",
+          "url": "https://kyivindependent.com/russia-unleashes-large-scale-attack-with-jet-powered-drones-as-kyiv-faces-nine-air-raid-alerts-in-a-single-day/"
+        }
+      ]
+    },
+    {
+      "id": "kherson-city",
+      "name": "赫尔松市（袭击）",
+      "nameEn": "Kherson City (strikes)",
+      "lat": 46.635,
+      "lon": 32.617,
+      "type": "strike",
+      "sector": "南部 · 第聂伯河下游",
+      "timeline": "2026-08-01 ~ 08-17",
+      "status": "8月17日双方均未报告赫尔松方向地面活动；乌军打击 Tendra 沙嘴俄无人机中继站",
+      "summary": "8月17日俄乌双方均未报告赫尔松州地面活动（ISW 8/17）。8月16-17日夜乌军打击赫尔松州 Tendra 沙嘴（距前线约43公里）的俄无人机中继通信供电点。俄军继续以无人机与滑翔炸弹打击赫尔松市民用设施。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "odesa-port",
+      "name": "敖德萨港 / 黑海港口走廊",
+      "nameEn": "Odesa ports / Black Sea corridor",
+      "lat": 46.4843,
+      "lon": 30.73229,
+      "type": "strike",
+      "sector": "南部 · 黑海",
+      "timeline": "2026-07-10 ~ 08-18",
+      "status": "俄军持续打击敖德萨州港口设施；8月17日多哥旗民船受损、4人受伤；俄巡飞弹坠入摩尔多瓦",
+      "summary": "8月16-17日夜俄军无人机袭击敖德萨州港口基础设施，一艘多哥旗民用船只受损，4人受伤（州长 Kiper；ISW 8/17）。俄国防部声称打击了敖德萨港一艘巡逻艇与 Izmail 港一个系泊码头。8月17日一枚俄 Banderol 巡航导弹/巡飞弹（乌空军称自敖德萨州方向）坠入摩尔多瓦 Talmaza（距乌边境约20公里）附近玉米地并爆炸起火，摩尔多瓦外交部谴责俄侵犯领空；乌反虚假信息中心称 7月15日-8月15日至少12枚俄无人机/导弹进入欧洲空域。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（多哥旗民船受损）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        },
+        {
+          "title": "Suspilne：俄 Banderol 巡飞弹飞入摩尔多瓦境内，当地记录到爆炸",
+          "date": "2026-08-17",
+          "url": "https://suspilne.media/1381268-povitrani-sili-zaavili-so-rosijska-banderol-zaletila-do-moldovi-u-moldovi-zafiksuvali-vibuh/"
+        },
+        {
+          "title": "CNBC：俄袭击多瑙河 Izmail 港，多哥旗民船受损、4 人受伤",
+          "date": "2026-08-17",
+          "url": "https://www.cnbc.com/2026/08/17/ukraine-war-russia-putin-moscow.html"
+        }
+      ]
+    },
+    {
+      "id": "crimea-energy",
+      "name": "克里米亚（能源/军事设施打击）",
+      "nameEn": "Crimea — infrastructure strikes",
+      "lat": 44.50878,
+      "lon": 34.18868,
+      "type": "strike",
+      "sector": "南部 · 克里米亚",
+      "timeline": "2026-07-01 ~ 08-17",
+      "status": "乌军8月16-17日夜打击克里米亚俄无人机储存/发射设施与地面控制站",
+      "summary": "8月16-17日夜乌总参谋部报告，乌军打击：Hvardiiske（距前线约190公里）俄打击无人机储存、准备与发射设施；Novofedorivka（约185公里）俄 Orion 型无人机地面控制站；Olenivka（约135公里）俄 Geran/Gerbera 打击无人机引导地面中继站。乌军对克里米亚俄军事与能源资产的中程打击行动持续。",
+      "reports": [
+        {
+          "title": "ISW: Russian Offensive Campaign Assessment, August 17, 2026（克里米亚三处设施被打击）",
+          "date": "2026-08-17",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+        }
+      ]
+    },
+    {
+      "id": "pechenihy",
+      "name": "佩切尼希 Pechenihy（哈尔科夫州）",
+      "nameEn": "Pechenihy (Kharkiv Oblast) — Aug 18 missile strike",
+      "lat": 49.8655,
+      "lon": 36.93981,
+      "type": "strike",
+      "sector": "北部 · 哈尔科夫州空袭",
+      "timeline": "2026-08-18",
+      "status": "俄 Banderol 巡航导弹袭击致 10 名平民死亡、17-18 人受伤",
+      "summary": "8月18日早晨俄军以两枚 Banderol 巡航导弹袭击 Pechenihy 村（哈尔科夫州 Chuhuyiv 区）一处繁忙路口——泽连斯基称其「对平民的残暴攻击」，俄方无回应。州长 Syniehubov 报告至少10人死亡、17-18人受伤，损毁10栋民宅、1家咖啡馆、1所邮局、商店与约15辆车；乌总检察长办公室称初步信息为两枚 Banderol 巡航导弹。泽连斯基表示将作出回应；联合国驻乌克兰人权监测团（UN HRMMU）称正在收集该袭击信息。",
+      "reports": [
+        {
+          "title": "Reuters：俄导弹袭击 Pechenihy 村致 10 死，泽连斯基誓言回应",
+          "date": "2026-08-18",
+          "url": "https://uk.news.yahoo.com/russian-missile-attack-kills-10-082752061.html"
+        },
+        {
+          "title": "PBS/AP：莫斯科州遭近 800 架无人机袭击；俄导弹袭 Pechenihy 10 死",
+          "date": "2026-08-18",
+          "url": "https://www.pbs.org/newshour/world/the-moscow-region-is-hit-by-almost-800-drones-as-russian-missiles-kill-10-in-a-ukrainian-village"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "ISW 官方地图：Assessed Control of Terrain in the Russo-Ukrainian War（2026-08-18 13:30 ET）",
+      "source": "ISW",
+      "date": "2026-08-18",
+      "url": "https://understandingwar.org/map/assessed-control-of-terrain-in-the-russo-ukrainian-war-august-18-2026-at-130-pm-et/"
+    },
+    {
+      "title": "ISW：Russian Offensive Campaign Assessment, August 17, 2026（双方 8/17 均无确认推进；俄扩建边境无人机发射基地）",
+      "source": "ISW",
+      "date": "2026-08-17",
+      "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-17-2026/"
+    },
+    {
+      "title": "Reuters：俄导弹袭击哈尔科夫州 Pechenihy 村致 10 死，泽连斯基誓言回应",
+      "source": "Reuters",
+      "date": "2026-08-18",
+      "url": "https://uk.news.yahoo.com/russian-missile-attack-kills-10-082752061.html"
+    },
+    {
+      "title": "PBS/AP：莫斯科州遭近 800 架无人机袭击（年内第二大）——俄导弹袭 Pechenihy 10 死",
+      "source": "AP",
+      "date": "2026-08-18",
+      "url": "https://www.pbs.org/newshour/world/the-moscow-region-is-hit-by-almost-800-drones-as-russian-missiles-kill-10-in-a-ukrainian-village"
+    },
+    {
+      "title": "Kyiv Independent：俄以 76 架喷气式无人机大规模袭击，基辅一日 9 次空袭警报",
+      "source": "Kyiv Independent",
+      "date": "2026-08-18",
+      "url": "https://kyivindependent.com/russia-unleashes-large-scale-attack-with-jet-powered-drones-as-kyiv-faces-nine-air-raid-alerts-in-a-single-day/"
+    },
+    {
+      "title": "Kyiv Independent：乌向莫斯科方向发射数百架无人机，Wildberries 仓库起火受损",
+      "source": "Kyiv Independent",
+      "date": "2026-08-18",
+      "url": "https://kyivindependent.com/fires-reported-near-moscow-as-ukraine-launches-dozens-of-drones-towards-russian-capital/"
+    },
+    {
+      "title": "BBC：俄乌互相发动致命打击——乌袭击俄境内致 6 死；俄袭击苏梅/顿涅茨克致平民死亡",
+      "source": "BBC",
+      "date": "2026-08-17",
+      "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+    },
+    {
+      "title": "Ukrainska Pravda：乌防空在 8/16-17 夜击落 106 架俄无人机（共 128 架来袭）",
+      "source": "Ukrainska Pravda",
+      "date": "2026-08-17",
+      "url": "https://www.pravda.com.ua/eng/news/2026/08/17/8048952/"
+    },
+    {
+      "title": "Suspilne：俄 Banderol 巡飞弹飞入摩尔多瓦境内，当地记录到爆炸",
+      "source": "Suspilne",
+      "date": "2026-08-17",
+      "url": "https://suspilne.media/1381268-povitrani-sili-zaavili-so-rosijska-banderol-zaletila-do-moldovi-u-moldovi-zafiksuvali-vibuh/"
+    },
+    {
+      "title": "Al Jazeera：俄乌互袭升级——俄宣布占领 Novosoloshyne 等两处居民点",
+      "source": "Al Jazeera",
+      "date": "2026-08-18",
+      "url": "https://www.aljazeera.com/news/2026/8/17/at-least-six-people-killed-in-ukrainian-missile-attack-on-russias-belgorod"
+    }
+  ]
+}

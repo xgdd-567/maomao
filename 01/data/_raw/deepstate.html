@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="uk_UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>DeepStateMAP | Мапа війни в Україні</title>
+
+    <meta name="title" content="DeepStateMAP | Мапа війни в Україні" />
+    <meta name="description" content="Новини війни росії проти України на мапі" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="noarchive" />
+
+    <link rel="manifest" href="/assets/favicon/light/site.webmanifest">
+
+    <link rel="icon" href="/assets/favicon/light/favicon.ico" type="image/png">
+
+    <link rel="alternate" hreflang="x-default" href="https://deepstatemap.live/" />
+    <link rel="alternate" hreflang="uk" href="https://deepstatemap.live" />
+    <link rel="alternate" hreflang="en" href="https://deepstatemap.live/en" />
+
+    <meta property="og:locale" content="uk_UA" />
+    <meta property="og:site_name" content="DeepStateMap" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://deepstatemap.live" />
+    <meta property="og:title" content="DeepStateMAP | Мапа війни в Україні" />
+    <meta property="og:description" content="Новини війни росії проти України на мапі" />
+    <meta property="og:image" content="https://deepstatemap.live/images/meta_og.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://deepstatemap.live" />
+    <meta property="twitter:title" content="DeepStateMAP | Мапа війни в Україні" />
+    <meta property="twitter:description" content="Новини війни росії проти України на мапі" />
+    <meta property="twitter:image" content="https://deepstatemap.live/images/meta_og.jpg" />
+
+    <!-- Service Worker -->
+    <script src="https://cdn.jsdelivr.net/npm/workbox-window@6.6.1/build/workbox-window.prod.umd.min.js"
+        integrity="sha384-5nDUqRyN007ANnfz6p69roFEvQcxCQH26Noj1FZOFwvSLJXH1Au579oK4+DBZRzj"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/bundle-0c668e.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.css"
+        integrity="sha512-KJRB1wUfcipHY35z9dEE+Jqd+pGCuQ2JMZmQPAjwPjXuzz9oL1pZm2cd79vyUgHQxvb9sFQ6f05DIz0IqcG1Jw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.js"
+        integrity="sha512-Io0KK/1GsMMQ8Vpa7kIJjgvOcDSwIqYuigJEYxrrObhsV4j+VTOQvxImACNJT5r9O4n+u9/58h7WjSnT5eC4hA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image-more/3.3.0/dom-to-image-more.min.js"
+        integrity="sha512-4AS0kbwZGFUCNG5wkLfomMUZiPcVR+1pYPTXXGQixUe/w99b5A/EusMZsTv3UN6SqaACgBin+85fFD5mUUeeEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.4.2/browser/pixi.min.js"
+        integrity="sha512-YB+Jnx8/VO5uFB0S9NoOsSC1JHct0zTJI8GGijwuxNDLcZ/UkChDy/xUUBKEgnyhDVFTcdfwF5lTJ1lY/RcTwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-pixi-overlay@1.8.2/L.PixiOverlay.min.js"
+        integrity="sha256-6cy4sEF667qVAfYHueNldOKSabvjVaztecy/xTEgVeE=" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.81.1/L.Control.Locate.min.js"
+        integrity="sha512-s/EGgrVhzEldZLssatR0N5oT6POS4r2ZwYa+sCXYrx8YMlKn9TQCIGTJS4c4O7w/u+bw32sNEyo+EPa+KDrw3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.81.1/L.Control.Locate.min.css"
+        integrity="sha512-IlIXbyZEmmeF+tke8OOZzxTAN+zU31Ye+CBvZR6wylo37OaqtdRMXYwPuwwV2cup5DE4gwEeWWv0SCBJsLW18g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/11.0.1/highcharts.min.js"
+        integrity="sha512-XC3Yk00lu4YeJueUiJ2dhW1feASV0F7rCWlIKbPDSl5nLULRBzieHsDujma6SKpQHOlL1b/Vx89T4VSkq89wtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/js/fabric.min.js"></script>
+    <script src="/js/fabric.eraser_brush.mixin.js"></script>
+    <script src="https://unpkg.com/leaflet.pattern@0.1.0/dist/leaflet.pattern.js"> </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-WN7VWFN");
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="theme-light">
+    <div id="js-disabled-alert">
+        <div id="js-disabled-alert-knight-preloader">
+            <svg width="19" height="36" viewBox="0 0 19 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="preloader-knight">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4545 1.11519C10.9846 1.76884 11.9704 2.87911 12.6454 3.58285C14.2951 5.30253 16.7469 8.34013 17.2474 9.28405C17.5609 9.87519 17.5262 10.2302 17.0959 10.8378C16.5366 11.6274 15.1013 11.9382 15.1013 11.2695C15.1013 10.6564 13.0187 9.81487 11.63 9.86642C10.7887 9.89786 10.0102 9.6595 9.50712 9.21715L8.71275 8.51816L8.98148 9.96768C9.38402 12.1385 10.0727 13.2085 12.2554 15.0525C14.654 17.0793 16.1954 19.7466 16.466 22.3389C16.6394 23.9982 16.534 24.4552 15.699 25.6719C15.1671 26.4472 14.7317 27.2109 14.7317 27.3685C14.7317 27.5264 15.2351 28.0382 15.8502 28.5058C19.0635 30.9479 18.9851 30.8521 18.5416 31.8147C18.2895 32.3619 18.2562 32.9151 18.4569 33.2284C18.638 33.5113 18.7889 34.116 18.7922 34.5719L18.7977 35.4006C18.7977 35.4006 18.6099 35.3988 9.46424 35.303C0.318528 35.2072 1.34494 35.303 0.0205967 35.303C-0.0400248 34.8833 0.00878906 33.75 0.491891 33.2017C1.02048 32.7677 1.01937 32.6654 0.480432 32.0761C0.0124644 31.5646 -0.0259782 31.2667 0.298938 30.666C0.525899 30.2471 0.804116 30.0414 1.00126 29.9045C1.13379 29.8125 1.98229 29.3196 2.82693 28.6045C4.43857 27.2406 4.46001 26.8073 2.99548 25.2313C2.71825 24.9334 2.52826 23.6835 2.52049 22.11C2.51347 20.6664 2.24511 18.1694 1.92426 16.5609C0.716266 10.5055 0.798326 9.00219 2.46985 6.54075C3.64753 4.80608 5.55157 3.41103 7.37428 2.94711C8.4869 2.66378 8.64585 2.47039 8.74713 1.27678C8.88833 -0.381855 9.21547 -0.412564 10.4545 1.11519Z" stroke-width="2" />
+            </svg>
+        </div>
+        <div id="js-disabled-alert-message">
+            <div style="text-align: center; margin-bottom: 16px;">
+                Якщо ви бачите це повідомлення — спробуйте перезавантажити сторінку. Якщо повідомлення не пропадає — перевірте чи у вашому браузері ввімкнено JavaScript.
+                <br />
+                <br />
+                If you see this message — try reloading the page. If it doesn't disappear — check that JavaScript is enabled in your browser's settings.
+            </div>
+            <div style="text-align: center;">
+                <a href="#" onclick="window.location.reload();" style="display: inline-block; padding: 8px 16px; border-radius: 4px; color: #FFFFFF; background-color: #33334E; cursor: pointer; text-decoration: none; margin: 8px;">
+                    Перезавантажити / Reload
+                </a>
+                <a href="https://www.enablejavascript.io/uk" target="_blank" rel="noreferrer" style="display: inline-block; padding: 8px 16px; border-radius: 4px; color: #FFFFFF; background-color: #33334E; cursor: pointer; text-decoration: none; margin: 8px;">
+                    Як включити JavaScript
+                </a>
+                <a href="https://www.enablejavascript.io/en" target="_blank" rel="noreferrer" style="display: inline-block; padding: 8px 16px; border-radius: 4px; color: #FFFFFF; background-color: #33334E; cursor: pointer; text-decoration: none; margin: 8px;">
+                    How to enable JavaScript
+                </a>
+            </div>
+        </div>
+
+        <style type="text/css">
+            #js-disabled-alert {
+                z-index: 1200;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                padding-left: 0px;
+            }
+
+            @media screen and (min-width: 640px) {
+                #js-disabled-alert {
+                    padding-left: 60px !important;
+                }
+
+                #js-disabled-alert-message {
+                    transform: translate(-36px, 36px) !important;
+                }
+            }
+
+            #js-disabled-alert-message {
+                background-color: #FFFFFF;
+                position: fixed;
+
+                width: 100%;
+                padding: 0 36px;
+                transform: translateY(36px);
+
+                opacity: 0;
+                animation: js-preloader-reveal-message 0.3s forwards;
+                animation-delay: 2s;
+            }
+            @keyframes js-preloader-reveal-message {
+                0% {
+                    opacity: 0;
+                }
+                
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            #js-disabled-alert-knight-preloader {
+                stroke: #33334E;
+                stroke-dasharray: 200;
+                stroke-dashoffset: 200;
+            
+                animation: js-preloader-knight-stroke 1.75s infinite;
+            }
+
+            @keyframes js-preloader-knight-stroke {
+                0% {
+                stroke-dashoffset: 200;
+                }
+                
+                50% {
+                stroke-dashoffset: 0;
+                }
+                
+                99% {
+                stroke-dashoffset: -200;
+                }
+                
+                100% {
+                stroke-dashoffset: -200;
+                }
+            }
+
+            body.theme-ligth #js-disabled-alert, 
+            body.theme-ligth #js-disabled-alert-message {
+                background-color: #FFFFFF;
+                color: #33334E;
+            }
+
+            body.theme-dark #js-disabled-alert, 
+            body.theme-dark #js-disabled-alert-message {
+                background-color: #282a2f;
+                color: #FFFFFF;
+            }
+
+            body.theme-dark #js-disabled-alert-knight-preloader {
+                stroke: #FFFFFF;
+            }
+        </style>
+    </div>
+
+    <div class="orientation-lock">
+        <div class="logo">
+            <svg width="77" height="36" viewBox="0 0 77 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="full-size-logo">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M10.4545 1.11519C10.9846 1.76884 11.9704 2.87911 12.6454 3.58285C14.2951 5.30253 16.7469 8.34013 17.2474 9.28405C17.5609 9.87519 17.5262 10.2302 17.0959 10.8378C16.5366 11.6274 15.1013 11.9382 15.1013 11.2695C15.1013 10.6564 13.0187 9.81487 11.63 9.86642C10.7887 9.89786 10.0102 9.6595 9.50712 9.21715L8.71275 8.51816L8.98148 9.96768C9.38402 12.1385 10.0727 13.2085 12.2554 15.0525C14.654 17.0793 16.1954 19.7466 16.466 22.3389C16.6394 23.9982 16.534 24.4552 15.699 25.6719C15.1671 26.4472 14.7317 27.2109 14.7317 27.3685C14.7317 27.5264 15.2351 28.0382 15.8502 28.5058C19.0635 30.9479 18.9851 30.8521 18.5416 31.8147C18.2895 32.362 18.2562 32.9151 18.4569 33.2284C18.638 33.5113 18.7889 34.116 18.7922 34.5719L18.7977 35.4006C18.7977 35.4006 18.6099 35.3988 9.46424 35.303C0.318528 35.2072 1.34494 35.303 0.0205967 35.303C-0.0400248 34.8833 0.00878906 33.75 0.491891 33.2017C1.02048 32.7677 1.01937 32.6654 0.480432 32.0761C0.0124644 31.5646 -0.0259782 31.2667 0.298938 30.666C0.525899 30.2471 0.804116 30.0414 1.00126 29.9045C1.13379 29.8125 1.98229 29.3196 2.82693 28.6045C4.43857 27.2406 4.46001 26.8073 2.99548 25.2313C2.71825 24.9334 2.52826 23.6835 2.52049 22.11C2.51347 20.6664 2.24511 18.1694 1.92426 16.5609C0.716266 10.5055 0.798326 9.00219 2.46985 6.54075C3.64753 4.80608 5.55157 3.41103 7.37428 2.94711C8.4869 2.66378 8.64585 2.47039 8.74713 1.27678C8.88833 -0.381856 9.21547 -0.412564 10.4545 1.11519Z"
+                    fill="#33334E" />
+                <path
+                    d="M61.04 10.6776H58.0935V8.2749H61.04C61.4487 8.2749 61.7816 8.18262 62.0387 7.99805C62.3024 7.81348 62.4935 7.55969 62.6122 7.23669C62.7308 6.9071 62.7902 6.53796 62.7902 6.12927C62.7902 5.71399 62.7275 5.32837 62.6023 4.97241C62.4836 4.60986 62.2958 4.31653 62.0387 4.09241C61.7882 3.86829 61.4553 3.75623 61.04 3.75623H59.0229V15.75H56.1357V1.35352H61.04C62.009 1.35352 62.8429 1.55786 63.5416 1.96655C64.2404 2.37524 64.7743 2.93884 65.1434 3.65735C65.5192 4.36926 65.707 5.18665 65.707 6.1095C65.707 7.03894 65.5192 7.84644 65.1434 8.53198C64.7743 9.21094 64.2404 9.73828 63.5416 10.114C62.8429 10.4897 62.009 10.6776 61.04 10.6776Z"
+                    fill="#33334E" />
+                <path
+                    d="M54.4449 13.3572V15.75H48.186V13.3572H54.4449ZM49.0858 1.35352V15.75H46.1887V1.35352H49.0858ZM53.6045 7.18726V9.51086H48.186V7.18726H53.6045ZM54.4252 1.35352V3.75623H48.186V1.35352H54.4252Z"
+                    fill="#33334E" />
+                <path
+                    d="M44.4979 13.3572V15.75H38.239V13.3572H44.4979ZM39.1388 1.35352V15.75H36.2417V1.35352H39.1388ZM43.6575 7.18726V9.51086H38.239V7.18726H43.6575ZM44.4781 1.35352V3.75623H38.239V1.35352H44.4781Z"
+                    fill="#33334E" />
+                <path
+                    d="M28.5491 15.75H26.0079L26.0277 13.3572H28.5491C29.2478 13.3572 29.7916 13.2319 30.1805 12.9814C30.5695 12.731 30.843 12.3354 31.0012 11.7949C31.166 11.2544 31.2484 10.5458 31.2484 9.66907V7.42456C31.2484 6.75879 31.2056 6.19519 31.1199 5.73376C31.0342 5.26575 30.8892 4.89001 30.6848 4.60657C30.4805 4.31653 30.2069 4.10229 29.8641 3.96387C29.5214 3.82544 29.0962 3.75623 28.5886 3.75623H25.9585V1.35352H28.5886C29.4192 1.35352 30.174 1.48865 30.8529 1.75891C31.5319 2.02917 32.1152 2.42468 32.603 2.94543C33.0908 3.45959 33.4666 4.0957 33.7302 4.85376C33.9939 5.61182 34.1257 6.47534 34.1257 7.44434V9.66907C34.1257 10.6447 33.9939 11.5082 33.7302 12.2596C33.4666 13.0111 33.0908 13.6472 32.603 14.168C32.1218 14.6821 31.5385 15.0743 30.8529 15.3446C30.1674 15.6149 29.3994 15.75 28.5491 15.75ZM27.6888 1.35352V15.75H24.7917V1.35352H27.6888Z"
+                    fill="#33334E" />
+                <path
+                    d="M75.7035 32.4822V34.875H69.4446V32.4822H75.7035ZM70.3444 20.4785V34.875H67.4473V20.4785H70.3444ZM74.863 26.3123V28.6359H69.4446V26.3123H74.863ZM75.6837 20.4785V22.8812H69.4446V20.4785H75.6837Z"
+                    fill="#33334E" />
+                <path
+                    d="M62.187 20.4785V34.875H59.3097V20.4785H62.187ZM65.7664 20.4785V22.8812H55.7996V20.4785H65.7664Z"
+                    fill="#33334E" />
+                <path
+                    d="M50.7469 23.0493L47.6521 34.875H44.5968L49.0957 20.4785H51.004L50.7469 23.0493ZM53.1892 34.875L50.0746 23.0493L49.7878 20.4785H51.7258L56.2643 34.875H53.1892ZM53.298 29.506V31.9087H46.8018V29.506H53.298Z"
+                    fill="#33334E" />
+                <path
+                    d="M41.4624 20.4785V34.875H38.5851V20.4785H41.4624ZM45.0417 20.4785V22.8812H35.075V20.4785H45.0417Z"
+                    fill="#33334E" />
+                <path
+                    d="M30.8826 31.088C30.8826 30.8309 30.8595 30.5969 30.8134 30.386C30.7672 30.175 30.6683 29.9806 30.5167 29.8026C30.3717 29.6246 30.1575 29.4467 29.874 29.2687C29.5972 29.0907 29.2346 28.9061 28.7864 28.715C28.2524 28.4908 27.735 28.2535 27.234 28.0031C26.733 27.746 26.2815 27.4493 25.8794 27.1132C25.4773 26.777 25.1576 26.3815 24.9203 25.9266C24.6896 25.4652 24.5742 24.9247 24.5742 24.3051C24.5742 23.6986 24.683 23.1482 24.9005 22.6538C25.1246 22.1594 25.441 21.7375 25.8497 21.3882C26.2584 21.0322 26.7363 20.7587 27.2834 20.5675C27.8372 20.3763 28.4535 20.2808 29.1324 20.2808C30.0553 20.2808 30.8529 20.4719 31.5253 20.8542C32.2042 21.2366 32.7283 21.7606 33.0974 22.4264C33.4731 23.0922 33.661 23.8568 33.661 24.7203H30.7738C30.7738 24.3116 30.7145 23.9524 30.5958 23.6426C30.4838 23.3262 30.3025 23.079 30.052 22.901C29.8015 22.723 29.4785 22.634 29.083 22.634C28.7139 22.634 28.4073 22.7098 28.1635 22.8615C27.9261 23.0065 27.7482 23.2075 27.6295 23.4646C27.5175 23.7151 27.4614 23.9985 27.4614 24.3149C27.4614 24.5522 27.5175 24.7665 27.6295 24.9576C27.7482 25.1422 27.9097 25.3103 28.114 25.4619C28.3184 25.6069 28.559 25.7487 28.8358 25.8871C29.1193 26.0255 29.4291 26.1606 29.7653 26.2925C30.4178 26.5496 30.9946 26.833 31.4956 27.1428C31.9966 27.446 32.4152 27.7888 32.7513 28.1711C33.0875 28.5469 33.3413 28.972 33.5127 29.4467C33.6841 29.9213 33.7698 30.4618 33.7698 31.0682C33.7698 31.6681 33.6643 32.2152 33.4534 32.7096C33.249 33.1974 32.9491 33.6193 32.5536 33.9752C32.1581 34.3246 31.6802 34.5948 31.1199 34.786C30.5662 34.9772 29.9465 35.0728 29.261 35.0728C28.5952 35.0728 27.9657 34.9805 27.3724 34.7959C26.7792 34.6047 26.2551 34.318 25.8003 33.9357C25.3521 33.5468 24.9994 33.0557 24.7423 32.4624C24.4852 31.8625 24.3567 31.1539 24.3567 30.3365H27.2538C27.2538 30.7716 27.2966 31.144 27.3823 31.4539C27.468 31.7571 27.5999 32.001 27.7778 32.1855C27.9558 32.3635 28.1733 32.4987 28.4304 32.5909C28.6941 32.6766 28.994 32.7195 29.3302 32.7195C29.7125 32.7195 30.0157 32.647 30.2399 32.502C30.4706 32.3569 30.6354 32.1625 30.7343 31.9186C30.8331 31.6747 30.8826 31.3978 30.8826 31.088Z"
+                    fill="#33334E" />
+            </svg>
+        </div>
+        <div class="anim">
+            <img src="/images/orientation_lock.svg" alt="Будь ласка, переверніть пристрій" />
+        </div>
+        <div class="caption">
+            <p class="lead">
+                Будь ласка, переверніть пристрій
+            </p>
+            <div class="subheader">
+                Для коректної роботи екран має бути у вертикальному положенні
+            </div>
+        </div>
+    </div>
+
+    <div class="offline-warn">
+        <span class="material-symbols-outlined"> cloud_off </span>
+        <span class="you-are-offline">Ви в офлайн-режимі.</span>
+        <span class="switch-to-online" style="margin-left: 8px; font-weight: bold; cursor: pointer;" onClick="window.offlineMapsController.handleOfflineWarnAction()">
+            Перейти в онлайн
+        </span>
+    </div>
+
+    <div class="map-load-error">
+        <div class="map-load-error-icon">
+            <span class="material-symbols-outlined"> signal_wifi_bad </span>
+        </div>
+        <div class="map-load-error-body">
+            <p class="map-loading-issues">
+                Проблеми з завантаженням мапи
+            </p>
+            <button class="map-load-error-btn" onClick="window.offlineMapsController.handleMapErrorAction()">
+                Перейти в офлайн-режим
+            </button>
+        </div>
+        <div class="map-load-error-dismiss" onClick="window.offlineMapsController.handleMapErrorDismiss()">
+            <span class="material-symbols-outlined"> close </span>
+        </div>
+    </div>
+
+    <div class="drawer-backdrop"></div>
+    <div class="root" id="root"></div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            const wb = new workbox.Workbox('/sw.js');
+
+            console.log('[SW] Registering...');
+            wb.register();
+        }
+    </script>
+
+    <script src="/js/bundle-dc1685.min.js" defer></script>
+</body>
+
+</html>

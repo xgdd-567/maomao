@@ -1,0 +1,103 @@
+[
+  {
+    "id": "huliaipole",
+    "name": "胡里艾伯莱 Huliaipole",
+    "nameEn": "Huliaipole (Zaporizhzhia Oblast)",
+    "lat": 47.66554, "lon": 36.26568,
+    "type": "contested",
+    "sector": "南部战线 · 扎波罗热方向",
+    "timeline": "2026-07-07 ~ 08-14",
+    "status": "俄军 8 月中旬在该方向取得局部推进（可能已占 Olenokostyantynivka/Zelene）；此前数月进攻均未获确认进展",
+    "summary": "俄军 7 月至 8 月中旬持续在胡里艾伯莱方向进攻，多数时段无确认推进：乌军 8 月 1 日打击城北 Yablukove 俄军无人机控制点；8 月上旬乌军在城西北 Zirnytsya 清剿俄渗透小组，俘虏一名受命伪造升旗视频的俄军士兵（俄军高层以假插旗宣传夸大进展）。8 月 13-14 日俄军取得近期首次确认进展——以约排级兵力对 Vozdvyzhivka（城西北）东南发起机械化突击，ISW 评估俄军很可能已夺取 Olenokostyantynivka 与 Zelene，乌军击伤 3 辆、击毁 1 辆俄装甲车。乌军自 1 月 29 日以来在该方向北部与亚历山德里夫卡方向合计解放约 626.69 平方公里（ISW 8/12 评估），并持续打击 M-14 别尔江斯克—梅利托波尔公路等俄后勤线。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 2, 2026", "date": "2026-08-02", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-2-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 8, 2026（Zirnytsya 清剿与假插旗）", "date": "2026-08-08", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-8-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 12, 2026（Oleksandrivka 反攻与解放面积评估）", "date": "2026-08-12", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-12-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（俄军在该方向推进）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "stepnohirsk",
+    "name": "斯捷普诺希尔斯克 Stepnohirsk",
+    "nameEn": "Stepnohirsk (Zaporizhzhia Oblast)",
+    "lat": 47.58690, "lon": 35.35602,
+    "type": "contested",
+    "sector": "南部战线 · 扎波罗热西部（第聂伯河左岸）",
+    "timeline": "2026-07-07 ~ 08-14",
+    "status": "俄军持续在扎波罗热西部（第聂伯河左岸）有限进攻，未获确认推进；乌军保持或恢复阵地",
+    "summary": "7 月 7-8 日地理定位视频显示俄军打击斯捷普诺希尔斯克（扎波罗热市东南、第聂伯河左岸、扎波罗热核电站下游方向）东南的乌军阵地，表明乌军最近在该方向取得推进。8 月俄军继续在扎波罗热西部（含第聂伯河左岸方向）实施有限进攻，均未获 ISW 确认的推进：8 月 10 日地理定位视频显示俄军打击 Orikhiv 以西 Mali Shcherbaky 与 Stepove 之间的乌军阵地（俄方此前声称控制该地区），显示乌军在当地保持或恢复了阵地。俄方 8 月中旬多次声称在 Orikhiv 以西/以南推进（Plavni、Pavlivka、Novodanylivka、Mala Tokmachka）并称将合围 Orikhiv，ISW 均未观察到证据支持。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, July 8, 2026", "date": "2026-07-08", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-8-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 11, 2026（俄方 Orikhiv 合围声称未获证实）", "date": "2026-08-11", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-11-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 12, 2026（Mali Shcherbaky/Stepove 乌军阵地）", "date": "2026-08-12", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-12-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "kharkiv-city",
+    "name": "哈尔科夫市（无人机袭击）",
+    "nameEn": "Kharkiv City (FPV/drone strikes)",
+    "lat": 49.99232, "lon": 36.23101,
+    "type": "strike",
+    "sector": "北部 · 城市袭击",
+    "timeline": "2026-07-01 ~ 08-14",
+    "status": "无地面战斗；俄军持续以无人机、滑翔炸弹与弹道导弹打击哈尔科夫市及周边民用与商业设施",
+    "summary": "市长 Terekhov 8 月 2 日通报：俄军 7 月对哈尔科夫市发动 109 次袭击，其中 51 次为 FPV 无人机打击（部分光纤制导、带强制遥控引爆装置），主要针对民用基础设施。8 月俄军继续以无人机与制导炸弹袭击哈尔科夫市及郊区：8 月 14 日四枚制导航空炸弹击中哈尔科夫郊区一处购物中心。8 月 10-11 日夜俄军以 KN-23 等弹道导弹与约 120 架无人机发动大规模打击，主目标为基辅州与扎波罗热市，哈尔科夫州变电站亦遭打击；8 月 12-14 日夜俄军分别以 138、133、112 架无人机打击含哈尔科夫州在内的多州民用与基础设施。",
+    "reports": [
+      { "title": "Suspilne：7 月俄军 50 余次 FPV 无人机袭击哈尔科夫（市长 Terekhov）", "date": "2026-08-02", "url": "https://suspilne.media/kharkiv/1369662-u-lipni-rosiani-ponad-50-raz-atakuvali-harkiv-fpv-dronami-terehov/" },
+      { "title": "Suspilne：俄军四枚制导航空炸弹击中哈尔科夫郊区购物中心", "date": "2026-08-14", "url": "https://suspilne.media/kharkiv/1379160-cotiri-kerovani-aviabombi-vlucili-po-torgovomu-centru-u-peredmisti-harkova/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 11, 2026（KN-23 弹道导弹大规模打击）", "date": "2026-08-11", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-11-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "kherson-city",
+    "name": "赫尔松市（袭击）",
+    "nameEn": "Kherson City (strikes)",
+    "lat": 46.63500, "lon": 32.61700,
+    "type": "strike",
+    "sector": "南部 · 第聂伯河下游",
+    "timeline": "2026-08-01 ~ 08-14",
+    "status": "地面无交火；俄军持续以无人机与滑翔炸弹打击赫尔松市及赫尔松州民用设施，8 月 14 日市区多街区断电",
+    "summary": "8 月 1-14 日双方均未报告赫尔松方向地面交火，俄军持续以无人机与滑翔炸弹打击民用目标：8 月 1 日 FAB-500 滑翔炸弹击中市内一处教育设施，8 月 2 日袭击民用车辆致 1 死 2 伤；8 月 7 日俄军打击赫尔松市以西 Stanislav 的 Pokrovsky 教堂。8 月 8-9 日夜俄军以 17 枚弹道/反舰导弹与约 200 架无人机打击包括赫尔松州在内的 12 个州。8 月 14 日赫尔松州军政管理局负责人 Prokudin 报告，俄军打击使赫尔松市多个街区断电。乌军同期继续对赫尔松州与克里米亚俄军目标实施中程打击（Kalanchak 物资仓库、Zalizny Port 无人机设施等）。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 2, 2026", "date": "2026-08-02", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-2-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 9, 2026（12 州遭袭与 Stanislav 教堂打击）", "date": "2026-08-09", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-9-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（赫尔松市断电）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "odesa-port",
+    "name": "敖德萨港 / 黑海港口走廊",
+    "nameEn": "Odesa ports / Black Sea corridor",
+    "lat": 46.48430, "lon": 30.73229,
+    "type": "strike",
+    "sector": "南部 · 黑海",
+    "timeline": "2026-07-10 ~ 08-14",
+    "status": "俄军持续重击敖德萨州港口与航运并转向 M-15 陆路走廊；俄拒绝黑海商船停火提议，乌粮食出口受阻",
+    "summary": "俄军自 7 月 10 日起持续打击敖德萨州港口与到港商船，7 月共打击 67 处港口设施、35 艘港内民用船与 22 艘海上走廊船只。8 月 8 日以 Onyx 反舰导弹打击敖德萨州，利比里亚旗 EMIL 轮遭二次打击；8/8-9 夜以约 11 枚弹道导弹与 100 架无人机重击敖德萨州。8/9 俄军打击 M-15 敖德萨—雷尼公路 Mayaki 桥，切断乌替代陆路粮食通道。8/13 俄喷气式无人机蓄意打击敖德萨州两列火车机车，致司机与助手死亡。土耳其 8/8 提议俄乌暂停打击黑海商船，乌 8/13 经第三方提出类似停火提议，俄外交部发言人 Zakharova 8/14 拒绝。",
+    "reports": [
+      { "title": "Reuters: Ukraine turns to alternative grain export routes, counts losses as Russia blocks ports", "date": "2026-08-04", "url": "https://www.reuters.com/world/ukraine-turns-alternative-grain-export-routes-counts-losses-russia-blocks-ports-2026-08-04/" },
+      { "title": "Suspilne：俄军当日再次袭击乌铁机车（敖德萨州）", "date": "2026-08-13", "url": "https://suspilne.media/odesa/1378084-rf-vdruge-za-den-atakuvala-lokomotiv-ukrzaliznici-na-odesini/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 9, 2026（Mayaki 桥打击）", "date": "2026-08-09", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-9-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（俄拒绝黑海停火提议）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "crimea-energy",
+    "name": "克里米亚（能源设施打击）",
+    "nameEn": "Crimea — energy infrastructure strikes",
+    "lat": 44.50878, "lon": 34.18868,
+    "type": "strike",
+    "sector": "南部 · 克里米亚",
+    "timeline": "2026-07-01 ~ 08-14",
+    "status": "乌军持续中程打击克里米亚军事与能源设施，半岛供电供水持续不稳；8 月 13 日塞瓦斯托波尔爆炸炸死俄潜艇部队副司令",
+    "summary": "Magyar 报告自 7 月 1 日以来乌军已对俄占乌克兰能源资产实施 177 次打击；Reuters 8/1 报道 Massandra 因停电排队领热食。8 月乌军持续打击克里米亚军事与能源目标：8/8-9 夜打击 Perekop 俄后勤仓库，Krymenergo 报告半岛断电、多地限水限油；8/10 GUR 打击 2 个 S-400 发射器；8/11 一夜打击 43 处军事与能源设施，塞瓦斯托波尔限电；8/12-13 打击 Saki 机场控制塔、Nebo-U 雷达并致 Balaklava 热电厂受损。8/13 塞瓦斯托波尔 IED 爆炸炸死俄第 4 独立潜艇旅副司令、前乌军潜艇指挥官 Shageev。8/14 卫星影像确认 Syvash 桥受损、Chonhar 铁路桥大部坍塌。",
+    "reports": [
+      { "title": "Reuters: Crimean families queue for hot meals after Ukraine hits power supply", "date": "2026-08-01", "url": "https://www.reuters.com/world/crimean-families-queue-hot-meals-ukraine-hits-power-supply-2026-08-01/" },
+      { "title": "Meduza：塞瓦斯托波尔爆炸致当地居民死亡，俄媒称死者为俄海军军官（潜艇部队副司令 Shageev）", "date": "2026-08-13", "url": "https://meduza.io/news/2026/08/13/v-sevastopole-v-rezultate-vzryva-bomby-pogib-mestnyy-zhitel-telegram-kanaly-pishut-chto-pogibshiy-ofitser-vmf-rossii" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 13, 2026（Saki 机场/Nebu-U 雷达/巴拉克拉瓦电厂/Shageev）", "date": "2026-08-13", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-13-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（Syvash/Chonhar 桥梁受损）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  }
+]

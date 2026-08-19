@@ -1,0 +1,120 @@
+[
+  {
+    "id": "lyman",
+    "name": "莱曼 Lyman",
+    "nameEn": "Lyman (Donetsk Oblast)",
+    "lat": 48.98013, "lon": 37.81680,
+    "type": "contested",
+    "sector": "东部战线 · 莱曼",
+    "timeline": "2026-07-31 ~ 08-14",
+    "status": "俄方持续宣称占领并清剿，ISW 未证实；乌军仍控制镇西部与周边村庄并实施反击；俄军转向莱曼东南外围与森林地带集结",
+    "summary": "俄方自7月底持续宣称已攻占莱曼并清剿，8月11日又称已占约半个城区，但 ISW 未观察到俄军进驻莱曼的证据；乌军仍控制西部城区及 Shandryholove、Drobysheve、Yampil 等周边村庄，并经 Drobysheve 方向反击。8月10日亲克宫博主承认莱曼及两翼局势对俄方不利，俄方对莱曼以南森林控制不足。8月13日 Mashovets 评估俄军在莱曼东南郊与 Dibrova 巩固阵地、夺取莱曼至亚姆皮尔间森林集结渗透兵力，并在 Staryi Karavan、Brusivka 附近取得未证实进展。俄军增派无人机单位（含 Rubikon 机组）恢复对乌无人机均势，以大量滑翔炸弹打击乌军渡口与后方；乌军打击俄无人机手掩体与天线。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 2, 2026", "date": "2026-08-02", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-2-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 10, 2026（亲克宫博主承认莱曼局势恶化）", "date": "2026-08-10", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-10-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 13, 2026（Mashovets 评估莱曼东南与森林地带）", "date": "2026-08-13", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-13-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（俄增派 Rubikon 无人机机组）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "sloviansk",
+    "name": "斯拉维扬斯克方向（Pryshyb / Rai-Oleksandrivka）",
+    "nameEn": "Slovyansk direction (Donetsk Oblast)",
+    "lat": 48.84818, "lon": 37.60116,
+    "type": "contested",
+    "sector": "东部战线 · 斯拉维扬斯克",
+    "timeline": "2026-07-07 ~ 08-14",
+    "status": "俄军渗透与炸桥、滑翔炸弹塑造战场持续，8月13-14日无推进；乌军在城东南维持并恢复阵地",
+    "summary": "俄军自7月持续以渗透与战场塑造向斯拉维扬斯克施压，7月初乌军打击城北 Pryshyb 附近渗透小组。8月上旬俄军继续小群渗透：8月9日视频显示俄兵袭击 Rai-Oleksandrivka 西北乌军掩体，8月11日俄军打击 Yurkivka 附近乌军阵地（俄方曾宣称控制），8月12-13日乌军仍在 Pyskunivka 西北郊维持阵地。俄军持续炸桥与投弹：8月8日称打击横跨 Kazennyi Torets 河的 Cherivkovsky 桥；8月12日俄博主称米科拉伊夫卡的斯拉维扬斯克热电厂已被基本摧毁。ISW 评估俄军强化对斯拉维扬斯克-克拉马托尔斯克一线战场遮断为未来进攻铺路，但近期内快速推进至或穿过两市的可能性低；8月13-14日俄军未推进。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 2, 2026", "date": "2026-08-02", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-2-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 8, 2026（Cherivkovsky 桥遭打击宣称）", "date": "2026-08-08", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-8-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 12, 2026（斯拉维扬斯克热电厂被毁宣称）", "date": "2026-08-12", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-12-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（8月13-14日俄军未推进）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "kostyantynivka",
+    "name": "康斯坦丁尼夫卡 Kostyantynivka",
+    "nameEn": "Kostyantynivka (Donetsk Oblast) — 近一月最激烈争夺点",
+    "lat": 48.53490, "lon": 37.69238,
+    "type": "contested",
+    "sector": "东部战线 · 顿涅茨克堡垒带",
+    "timeline": "2026-07-01 ~ 08-14（整月持续）",
+    "status": "俄军单兵渗透与滑翔炸弹打击持续，无确认推进；乌军清剿城西渗透人员；俄方占领宣称多未证实或涉 AI 篡改视频",
+    "summary": "俄军整个7月持续对康斯坦丁尼夫卡实施城内渗透，争夺城东南 Rusyn Yar 损失约1200人未果；乌军旅长称俄军近三个月10-15次机械化突击均失败。8月上旬俄军无确认推进：8月9日俄国防部宣称占领城北 Vasyutynske、Druzhkivka 西南 Toretske，但8月10日亲克宫博主称「占领 Vasyutynske」为时过早、乌军仍控制其北侧据点；乌军同日清剿城西渗透人员。8月11日视频显示一名俄兵着便装（背信弃义）企图炸毁城西乌军建筑，表明俄军当地有推进。8月13日乌军称俄渗透组缩至单兵、以无人机引导，俄军重弹持续轰击 Druzhkivka。8月14日俄国防部称占领 Novomykolaivka（未证实），乌军空袭城中心俄占建筑，显示俄军或已在城东南巩固阵地。",
+    "reports": [
+      { "title": "Militarnyi：俄军士兵穿便装企图炸毁康斯坦丁尼夫卡建筑（背信弃义行为）", "date": "2026-08-12", "url": "https://militarnyi.com/uk/news/rosiyany-pereodyagnuly-vijskovogo-u-tsyvilne-dlya-pidryvu-budivli-u-kostyantynivtsi/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 10, 2026（乌军清剿城西渗透人员）", "date": "2026-08-10", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-10-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 13, 2026（单兵渗透；Petrivka 疑似 AI 篡改视频）", "date": "2026-08-13", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-13-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（Novomykolaivka 宣称；城东南阵地巩固）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "chasiv-yar",
+    "name": "恰西夫亚尔 Chasiv Yar",
+    "nameEn": "Chasiv Yar (Donetsk Oblast)",
+    "lat": 48.58739, "lon": 37.83734,
+    "type": "contested",
+    "sector": "东部战线 · 康斯坦丁尼夫卡战术区",
+    "timeline": "2026-07-06 ~ 08-14",
+    "status": "俄军承认夺取困难，Shevchenko、Yuzhnyy 小区为争夺「灰色地带」；乌军打击附近俄无人机设施",
+    "summary": "恰西夫亚尔自2024年以来长期交战，城镇主体处于俄控区边缘。8月12日亲克宫博主承认俄军夺取恰西夫亚尔及周边困难：俄军加紧「清除」城郊乌军口袋，但 Shevchenko、Yuzhnyy 两小区仍是「灰色地带」，乌军无人机打击密集、地形开阔，俄军无法速胜；该博主还称夺取城北 Stinky 是「遥远前景」，乌军在 Vyrolyubivka 附近保有重要阵地、Klynove 仍有存在（俄国防部2025年12月曾宣称占领）。8月14日乌军总参谋部报告乌军打击恰西夫亚尔东北一处俄军无人机控制点。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, July 8, 2026", "date": "2026-07-08", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-8-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 12, 2026（俄博主承认夺取恰西夫亚尔困难）", "date": "2026-08-12", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-12-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（乌军打击恰西夫亚尔附近俄无人机控制点）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "pokrovsk",
+    "name": "波克罗夫斯克方向（Bilytske / T-0504 公路）",
+    "nameEn": "Pokrovsk direction (Donetsk Oblast)",
+    "lat": 48.40785, "lon": 37.17648,
+    "type": "contested",
+    "sector": "东部战线 · 波克罗夫斯克",
+    "timeline": "2026-07-13 ~ 08-14",
+    "status": "俄军8月8-14日无推进；以新兵小群渗透为主，乌军打击渗透人员；俄军以拦截无人机护卫 Molniya 巡飞弹",
+    "summary": "7月下旬起俄军持续渗透城北 Bilytske 并遭乌军打击，乌军同时打击 T-0504 公路后勤线。8月上旬俄军轮换增兵后加大渗透（1-3人小组），乌军称「杀伤区」纵深约20公里；8月9日视频显示俄军打击 Chernihivka 以东乌军阵地，反证乌军在当地维持控制。8月11日乌军称俄军以入伍不足一月、训练不足一周的新兵为主发动步兵攻击，几乎不用装甲车，改用无人地面车辆运输后送。8月12日俄军无推进，乌军称部分俄旅获增援却无防弹衣和步枪，俄军以无人机空投饮水激励新兵冲锋。8月13日乌军打击 Bilytske 中部渗透俄兵；俄军以拦截无人机护卫 Molniya 巡飞弹压制乌军后勤。8月13-14日俄军在波克罗夫斯克与 Novopavlivka 方向均无推进。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 2, 2026", "date": "2026-08-02", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-2-2026/" },
+      { "title": "ArmyInform：一周训练、一个月前线——波克罗夫斯克方向的俄军新兵", "date": "2026-08-11", "url": "https://armyinform.com.ua/2026/08/11/tyzhden-pidgotovky-misyacz-na-fronti-polon-pid-pokrovskom-rosiyany-kydayut-u-bij-novobrancziv/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 13, 2026（Bilytske 渗透；拦截无人机战术）", "date": "2026-08-13", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-13-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（8月13-14日俄军未推进）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "dobropillya",
+    "name": "多布罗皮利亚战术区 Dobropillya",
+    "nameEn": "Dobropillya tactical area (Donetsk Oblast)",
+    "lat": 48.46830, "lon": 37.09032,
+    "type": "contested",
+    "sector": "东部战线 · 波克罗夫斯克西北",
+    "timeline": "2026-07-07 ~ 08-14",
+    "status": "俄军宣称逼近与合围，ISW 未见确认推进；乌军反击并依托无人机优势迟滞俄军；俄军以密集 Geran、滑翔炸弹实施战场遮断",
+    "summary": "俄军自7月持续进攻多布罗皮利亚战术区，7月底一次连级机械化突击失败。8月上旬俄军无确认推进，但分析家 Rob Lee 称俄军向多布罗皮利亚的推进速度近几周加快：俄第177海军步兵团小组抵达城东南郊，第9摩步旅与第61海军步兵旅试图自东、东北合围该城，俄军控制 Novyi Donbas、利用附近矿区堆场作渗透基地。8月11日俄博主承认因乌军无人机密集，俄军每日仅推进「数十米」，渗透人员在 Shevchenko 一带活动约两月；ISW 未见俄军近乎合围乌军的证据，乌军8月12日在 Toretske 附近反击。俄军每日对多布罗皮利亚实施5-10次 Geran 打击并投掷滑翔炸弹，俄第86无人系统团投入该方向。8月14日俄方宣称城南、城北推进，未获证实。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 10, 2026（Rob Lee 评估俄军推进加速与合围企图）", "date": "2026-08-10", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-10-2026/" },
+      { "title": "Suspilne：需建立梯次无人机防线——「Svoboda」无人机营谈多布罗皮利亚方向", "date": "2026-08-10", "url": "https://suspilne.media/donbas/1375184-potribno-buduvati-eselonovanu-liniu-bpla-bataljon-svoboda-pro-dobropilskij-napramok/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 11, 2026（俄自认每日推进数十米；86 无人系统团首现）", "date": "2026-08-11", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-11-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（俄方宣称推进，无确认）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "oleksandrivka-donetsk",
+    "name": "亚历山德里夫卡（顿涅茨克州）方向",
+    "nameEn": "Oleksandrivka direction (Donetsk Oblast)",
+    "lat": 48.70740, "lon": 36.92078,
+    "type": "contested",
+    "sector": "东部战线 · 斯拉维扬斯克西南",
+    "timeline": "2026-01-29 ~ 08-14（乌军反攻全程）",
+    "status": "乌军1月29日-8月12日反攻收复26个居民点（ISW 评估约626.7平方公里）；8月俄军无推进，其占领宣称多涉 AI 篡改视频",
+    "summary": "7月上旬乌军打击亚历山德里夫卡东南 Novohryhorivka 附近俄渗透人员，7月中旬乌军在该方向推进。8月12日乌克兰官方公布反攻战果：1月29日至8月12日，乌空降突击部队收复26个居民点（第聂伯罗彼得罗夫斯克州12个、顿涅茨克州10个、扎波罗热州4个），解放745余平方公里并清剿300余平方公里渗透区；ISW 保守评估收复约626.69平方公里，并指俄方在该方向及与胡里艾伯莱方向接合处的推进宣称多被夸大、相关视频疑似 AI 篡改（如8月11日「占领 Nove Pole」）。8月8-14日俄军均无推进，乌军持续反击；亲克宫博主承认乌反攻成功、俄军7月底起处境恶化。ISW 评估反攻展示乌军有限机械化机动能力，并牵制俄军攻势资源。",
+    "reports": [
+      { "title": "ArmyInform：空降突击部队在亚历山德里夫卡方向恢复控制26个居民点", "date": "2026-08-12", "url": "https://armyinform.com.ua/2026/08/12/ugrupovannya-dshv-vidnovylo-kontrol-nad-26-naselenymy-punktamy-na-oleksandrivskomu-napryamku/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 12, 2026（亚历山德里夫卡方向反攻成果专题）", "date": "2026-08-12", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-12-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 13, 2026（地理定位视频佐证收复26个居民点）", "date": "2026-08-13", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-13-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026（俄军未推进，乌军反击持续）", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  }
+]

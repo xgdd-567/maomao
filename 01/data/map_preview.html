@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>乌克兰控制区地图预览（双方占领区）</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  html,body{margin:0;height:100%;font-family:system-ui,"Microsoft YaHei",sans-serif}
+  #map{position:absolute;inset:0}
+  #legend{position:absolute;right:12px;bottom:12px;z-index:1000;background:#fff;padding:10px 12px;
+          border:1px solid #ccc;border-radius:8px;font-size:13px;line-height:1.7;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+  #legend b{display:block;margin-bottom:4px}
+  .sw{display:inline-block;width:14px;height:14px;border:1px solid #888;vertical-align:-2px;margin-right:6px}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="legend">
+  <b>图例（双方占领区）</b>
+  <div><span class="sw" style="background:#a52714"></span>俄占（2022 后）</div>
+  <div><span class="sw" style="background:#ff5252"></span>俄占（其他/历史）</div>
+  <div><span class="sw" style="background:#880e4f"></span>俄占（克里米亚/ORDLO 等）</div>
+  <div><span class="sw" style="background:#0288d1"></span>乌克兰控制区（底色）</div>
+  <div><span class="sw" style="background:#0f9d58"></span>乌解放（近期收复）</div>
+  <div><span class="sw" style="background:#bcaaa4"></span>未知状态</div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="border.js"></script>
+<script src="control.js"></script>
+<script>
+  var map = L.map('map', {preferCanvas:true}).setView([48.5, 33.5], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {maxZoom:18, attribution:'&copy; OpenStreetMap'}).addTo(map);
+
+  function styleOf(p){
+    return {
+      color: p.stroke || p.fill || '#3388ff',
+      weight: p['stroke-width'] || 1,
+      opacity: p['stroke-opacity'] != null ? p['stroke-opacity'] : 1,
+      fillColor: p.fill || '#3388ff',
+      fillOpacity: p['fill-opacity'] != null ? p['fill-opacity'] : 0.3
+    };
+  }
+  // 乌克兰国际边界（描边）
+  if (typeof BORDER_DATA !== 'undefined') {
+    L.geoJSON(BORDER_DATA, {style:{color:'#222', weight:2, fill:false}}).addTo(map);
+  }
+  // 控制区（含乌克兰底色，index 0 在最底层）
+  if (typeof CONTROL_DATA !== 'undefined') {
+    L.geoJSON(CONTROL_DATA, {style: function(f){ return styleOf(f.properties||{}); }}).addTo(map);
+  }
+</script>
+</body>
+</html>

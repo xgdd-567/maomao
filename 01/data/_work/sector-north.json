@@ -1,0 +1,70 @@
+[
+  {
+    "id": "sumy-north",
+    "name": "苏梅州北部边境地带",
+    "nameEn": "Northern Sumy Oblast (Nova Sich / Mala Slobidka / Mohrytsya / Ivolzhanske)",
+    "lat": 51.03496, "lon": 35.10345,
+    "type": "contested",
+    "sector": "北部战线 · 苏梅方向",
+    "timeline": "2026-07-08 ~ 08-14",
+    "status": "俄军持续有限进攻但未推进；乌军在 Turya、Mohrytsia 附近反击；Ryasne 一带双方交错",
+    "summary": "7月8日俄军渗透苏梅市以北 Kindrativka；7月底俄北方集团军宣称占领 Nova Sich、Mala Slobidka、Mohrytsya 等村，乌军与 ISW 否认，且曝出 AI 篡改插旗视频。8月8日乌联合部队发言人 Trehubov 称俄军仍占据 Ryasne（苏梅市东南）东郊，双方在该村交错，乌军恢复西郊阵地。8月10-14日俄军持续有限进攻但未推进，乌军在 Turya（苏梅市东）、Mohrytsia（苏梅市东北）附近反击；俄国防部 8月11日称以 LMUR 导弹打击 Porozok（苏梅市东南）的乌无人机控制点。ISW 评估俄方占领声称严重夸大，北方战线近两年基本停滞。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, July 31, 2026（北方战线夸大评估）", "date": "2026-07-31", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-31-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 8, 2026", "date": "2026-08-08", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-8-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 11, 2026（Turya/Mohrytsia 反击）", "date": "2026-08-11", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-11-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "kozacha-lopan",
+    "name": "科扎恰洛潘 Kozacha Lopan",
+    "nameEn": "Kozacha Lopan (Kharkiv Oblast)",
+    "lat": 50.32959, "lon": 36.19214,
+    "type": "contested",
+    "sector": "北部战线 · 哈尔科夫方向",
+    "timeline": "2026-07-30 ~ 08-14",
+    "status": "科扎恰洛潘仍为争夺中的『灰色地带』；乌军仍控制，俄方推进声称未获确认",
+    "summary": "7月30日地理定位视频显示乌军打击科扎恰洛潘（哈尔科夫市西北）中部、东部与东南部的俄军渗透小组，乌第14军发言人称仍控制该村。8月9日俄北方集团军消息源声称俄军推进至村中部，并称 Vilcha 附近多支俄军小组与主力失联、补给困难。8月11日俄博主声称俄军推进至村以东；俄国防部同日宣称占领 Shcherbakivka（哈尔科夫市以北、1997年已撤销的村庄），乌反虚假信息中心斥之为制造俄军『处处取胜』的假象。8月12日俄亲克里姆林宫博主承认该村为争夺中的『灰色地带』，俄军在哈尔科夫方向推进多为局部、无大规模越境。8月13-14日俄军在该方向与大布尔卢克方向继续进攻，但无确认推进。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 2, 2026", "date": "2026-08-02", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-2-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 9, 2026（村中部推进声称）", "date": "2026-08-09", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-9-2026/" },
+      { "title": "Suspilne: Russian MoD claimed capture of Shcherbakivka village in Kharkiv Oblast — village has not existed since 1997", "date": "2026-08-12", "url": "https://suspilne.media/kharkiv/1377460-u-minoboroni-rf-zaavili-pro-zahoplenna-sela-serbakivka-na-harkivsini-jogo-ne-isnue-z-1997-roku/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "velykii-burluk",
+    "name": "大布尔卢克方向（Artilne / Ivashkyne / Khatne / Odradne）",
+    "nameEn": "Velykyi Burluk direction (Kharkiv Oblast)",
+    "lat": 50.05970, "lon": 37.38551,
+    "type": "contested",
+    "sector": "北部战线 · 哈尔科夫东北",
+    "timeline": "2026-07-22 ~ 08-14",
+    "status": "俄军继续有限进攻但无确认推进；宣称占领 Vodyane 等未获证实；ISW 评估『包围』说法极不可能",
+    "summary": "7月下旬俄国防部宣称占领 Artilne、Ivashkyne，乌方否认；7月29日机械化突击未获突破。8月8-14日俄军持续有限进攻，均无确认推进。8月10日俄 FPV 无人机袭击大布尔卢克警车。8月11日定位视频显示乌军打击 Chorne 以东的俄军渗透人员；俄国防部 8月12日宣称占领 Vodyane，未获证实。8月13日俄博主宣称进入 Vilkhuvatka 并在 Ustynivka、Ivashkyne 附近推进；乌军同日打击别尔哥罗德州 Butyrki 边境附近的俄军集结。俄方渲染『包围』大布尔卢克与 Vovchansk 间乌军，ISW 评估极不可能（两方向俄军相距约45公里）。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, July 31, 2026", "date": "2026-07-31", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-31-2026/" },
+      { "title": "Suspilne: Russian FPV drone attacked police cars during evacuation in Velykyi Burluk", "date": "2026-08-10", "url": "https://suspilne.media/kharkiv/1375654-avtivki-policii-atakuvav-rosijskij-fpv-dron-pid-cas-evakuacii-u-velikomu-burluku/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 12, 2026（Vodyane 占领声称）", "date": "2026-08-12", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-12-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  },
+  {
+    "id": "kupyansk-borova",
+    "name": "库皮扬斯克—博罗瓦（Oskil 河方向）",
+    "nameEn": "Kupyansk–Borova (Oskil River axis)",
+    "lat": 49.71330, "lon": 37.61420,
+    "type": "contested",
+    "sector": "东部战线 · 库皮扬斯克—博罗瓦",
+    "timeline": "2026-07-03 ~ 08-14",
+    "status": "俄军在库皮扬斯克以东以渗透与 47 坦克师机械化推进分割乌军桥头堡，或已控制 Pishchane 大部；博罗瓦方向俄军有限进攻未推进，乌军反击",
+    "summary": "7月上旬俄方宣称攻入库皮扬斯克以北 Kindrashivka、Mala Shapkivka，未获确认；7月底 ISW 报告乌军在博罗瓦方向推进。8月8日俄方承认乌军已推进至 Katerynivka 西部与 Nove 中部，俄军自北、东渗透逼近库皮扬斯克，企图切断 Oskil 河东岸桥头堡。8月12日乌方称俄军或已控制 Pishchane 大部。8月13日俄第47坦克师抵 Lozovatka 河北岸、Kupyansk-Vuzlovyi 东郊，企图分割桥头堡。博罗瓦方向俄军 8月12-14日未推进，乌军在 Bohuslavka、Ridkodub 附近反击。",
+    "reports": [
+      { "title": "ISW: Russian Offensive Campaign Assessment, July 31, 2026", "date": "2026-07-31", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-31-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 8, 2026", "date": "2026-08-08", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-8-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 13, 2026（47 坦克师推进）", "date": "2026-08-13", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-13-2026/" },
+      { "title": "ISW: Russian Offensive Campaign Assessment, August 14, 2026", "date": "2026-08-14", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-14-2026/" }
+    ]
+  }
+]

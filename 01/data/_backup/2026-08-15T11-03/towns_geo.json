@@ -1,0 +1,322 @@
+{
+ "Kozacha Lopan": {
+  "display": "科扎恰洛潘 Kozacha Lopan",
+  "geo": {
+   "lon": 36.19214,
+   "lat": 50.32959,
+   "name": "Козача Лопань",
+   "osm_type": "R",
+   "osm_id": 3546348
+  }
+ },
+ "Velykyi Burluk": {
+  "display": "大布尔卢克 Velykyi Burluk",
+  "geo": {
+   "lon": 37.38551,
+   "lat": 50.0597,
+   "name": "Великий Бурлук",
+   "osm_type": "R",
+   "osm_id": 3555860
+  }
+ },
+ "Artilne": {
+  "display": "阿尔蒂尔内 Artilne",
+  "geo": {
+   "lon": 37.62078,
+   "lat": 50.24476,
+   "name": "Артільне",
+   "osm_type": "R",
+   "osm_id": 3555899
+  }
+ },
+ "Kupyansk": {
+  "display": "库皮扬斯克 Kupyansk",
+  "geo": {
+   "lon": 37.64007,
+   "lat": 49.68781,
+   "name": "Локомоти́вне депо́ «Куп'янськ» (ТЧ-15)",
+   "osm_type": "W",
+   "osm_id": 136728536
+  }
+ },
+ "Borova": {
+  "display": "博罗瓦 Borova",
+  "geo": {
+   "lon": 37.62534,
+   "lat": 49.37995,
+   "name": "Борова",
+   "osm_type": "R",
+   "osm_id": 3540455
+  }
+ },
+ "Lyman": {
+  "display": "莱曼 Lyman",
+  "geo": {
+   "lon": 37.8168,
+   "lat": 48.98013,
+   "name": "Лиман",
+   "osm_type": "R",
+   "osm_id": 2718821
+  }
+ },
+ "Slovyansk": {
+  "display": "斯拉维扬斯克 Slovyansk",
+  "geo": {
+   "lon": 37.60116,
+   "lat": 48.84818,
+   "name": "Слов'янськ",
+   "osm_type": "N",
+   "osm_id": 4785499021
+  }
+ },
+ "Kostyantynivka": {
+  "display": "康斯坦丁尼夫卡 Kostyantynivka",
+  "geo": {
+   "lon": 37.69238,
+   "lat": 48.5349,
+   "name": "Костянтинівка",
+   "osm_type": "R",
+   "osm_id": 3940146
+  }
+ },
+ "Chasiv Yar": {
+  "display": "恰西夫亚尔 Chasiv Yar",
+  "geo": {
+   "lon": 37.83734,
+   "lat": 48.58739,
+   "name": "Часів Яр",
+   "osm_type": "R",
+   "osm_id": 2875300
+  }
+ },
+ "Pokrovsk": {
+  "display": "波克罗夫斯克 Pokrovsk",
+  "geo": {
+   "lon": 37.17725,
+   "lat": 48.27711,
+   "name": "Покровськ",
+   "osm_type": "R",
+   "osm_id": 2506125
+  }
+ },
+ "Bilytske": {
+  "display": "比利茨凯 Bilytske",
+  "geo": {
+   "lon": 37.17648,
+   "lat": 48.40785,
+   "name": "Білицьке",
+   "osm_type": "R",
+   "osm_id": 3940064
+  }
+ },
+ "Dobropillya": {
+  "display": "多布罗皮利亚 Dobropillya",
+  "geo": {
+   "lon": 37.09032,
+   "lat": 48.4683,
+   "name": "Добропілля",
+   "osm_type": "R",
+   "osm_id": 3940067
+  }
+ },
+ "Oleksandrivka": {
+  "display": "亚历山德里夫卡 Oleksandrivka",
+  "geo": {
+   "lon": 36.92078,
+   "lat": 48.7074,
+   "name": "Олександрівка",
+   "osm_type": "R",
+   "osm_id": 3586605
+  }
+ },
+ "Hulyaipole": {
+  "display": "胡里艾伯莱 Hulyaipole",
+  "geo": {
+   "lon": 36.26568,
+   "lat": 47.66554,
+   "name": "Гуляйполе",
+   "osm_type": "R",
+   "osm_id": 17778380
+  }
+ },
+ "Stepnohirsk": {
+  "display": "斯捷普诺希尔斯克 Stepnohirsk",
+  "geo": {
+   "lon": 35.35602,
+   "lat": 47.5869,
+   "name": "Степногірськ",
+   "osm_type": "W",
+   "osm_id": 1474343422
+  }
+ },
+ "Zaporizhzhia": {
+  "display": "扎波罗热 Zaporizhzhia",
+  "geo": {
+   "lon": 35.11829,
+   "lat": 47.85079,
+   "name": "Запоріжжя",
+   "osm_type": "R",
+   "osm_id": 1418311
+  }
+ },
+ "Odesa": {
+  "display": "敖德萨 Odesa",
+  "geo": {
+   "lon": 30.73229,
+   "lat": 46.4843,
+   "name": "Одеса",
+   "osm_type": "R",
+   "osm_id": 1413934
+  }
+ },
+ "Kherson": {
+  "display": "赫尔松 Kherson",
+  "geo": {
+   "lon": 33.40793,
+   "lat": 46.54217,
+   "name": "Херсонська область",
+   "osm_type": "R",
+   "osm_id": 71022
+  }
+ },
+ "Sumy": {
+  "display": "苏梅 Sumy",
+  "geo": {
+   "lon": 34.32893,
+   "lat": 50.76965,
+   "name": "Сумська область",
+   "osm_type": "R",
+   "osm_id": 71250
+  }
+ },
+ "Mohrytsya": {
+  "display": "莫赫里察 Mohrytsya",
+  "geo": {
+   "lon": 35.10345,
+   "lat": 51.03496,
+   "name": "Могриця",
+   "osm_type": "N",
+   "osm_id": 337512498
+  }
+ },
+ "Kindrativka": {
+  "display": "金德拉蒂夫卡 Kindrativka",
+  "geo": {
+   "lon": 34.77151,
+   "lat": 51.14202,
+   "name": "Кіндратівка",
+   "osm_type": "N",
+   "osm_id": 337511318
+  }
+ },
+ "Ivolzhanske": {
+  "display": "伊沃尔然斯克 Ivolzhanske",
+  "geo": {
+   "lon": 34.87438,
+   "lat": 51.06926,
+   "name": "Іволжанське",
+   "osm_type": "N",
+   "osm_id": 337512162
+  }
+ },
+ "Nova Sich": {
+  "display": "新西奇 Nova Sich",
+  "geo": {
+   "lon": 34.91832,
+   "lat": 51.0848,
+   "name": "Нова Січ",
+   "osm_type": "N",
+   "osm_id": 337511999
+  }
+ },
+ "Toretsk": {
+  "display": "托列茨克 Toretsk",
+  "geo": {
+   "lon": 37.85014,
+   "lat": 48.39705,
+   "name": "Торецьк",
+   "osm_type": "R",
+   "osm_id": 2383991
+  }
+ },
+ "Druzhkivka": {
+  "display": "德鲁日基夫卡 Druzhkivka",
+  "geo": {
+   "lon": 37.52495,
+   "lat": 48.61986,
+   "name": "Дружківка",
+   "osm_type": "R",
+   "osm_id": 2900261
+  }
+ },
+ "Novohrodivka": {
+  "display": "新赫罗迪夫卡 Novohrodivka",
+  "geo": {
+   "lon": 37.33997,
+   "lat": 48.19972,
+   "name": "Новогродівка",
+   "osm_type": "R",
+   "osm_id": 3313676
+  }
+ },
+ "Siversk": {
+  "display": "西维尔斯克 Siversk",
+  "geo": {
+   "lon": 38.09024,
+   "lat": 48.86763,
+   "name": "Сіверськ",
+   "osm_type": "R",
+   "osm_id": 3586192
+  }
+ },
+ "Vuhledar": {
+  "display": "武赫莱达尔 Vuhledar",
+  "geo": {
+   "lon": 37.24608,
+   "lat": 47.78099,
+   "name": "Вугледар",
+   "osm_type": "R",
+   "osm_id": 3940403
+  }
+ },
+ "Kurakhove": {
+  "display": "库拉霍韦 Kurakhove",
+  "geo": {
+   "lon": 37.28264,
+   "lat": 47.98352,
+   "name": "Курахове",
+   "osm_type": "R",
+   "osm_id": 3934092
+  }
+ },
+ "Velyka Novosilka": {
+  "display": "大诺沃西尔卡 Velyka Novosilka",
+  "geo": {
+   "lon": 36.83965,
+   "lat": 47.84368,
+   "name": "Велика Новосілка",
+   "osm_type": "R",
+   "osm_id": 2418936
+  }
+ },
+ "Kramatorsk": {
+  "display": "克拉马托尔斯克 Kramatorsk",
+  "geo": {
+   "lon": 37.58438,
+   "lat": 48.73894,
+   "name": "Краматорськ",
+   "osm_type": "R",
+   "osm_id": 3936275
+  }
+ },
+ "Kharkiv": {
+  "display": "哈尔科夫 Kharkiv",
+  "geo": {
+   "lon": 36.23101,
+   "lat": 49.99232,
+   "name": "Харків",
+   "osm_type": "R",
+   "osm_id": 3154746
+  }
+ }
+}
